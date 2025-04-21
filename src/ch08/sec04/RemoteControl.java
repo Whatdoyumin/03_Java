@@ -6,5 +6,5 @@ public interface RemoteControl {
 
     void turnOn();
     void turnOff();
-    void setVolume(int volume)
+    void setVolume(int volume);
 }
