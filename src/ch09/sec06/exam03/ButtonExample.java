@@ -1,20 +1,20 @@
 package ch09.sec06.exam03;
 
-import ch09.sec06.exam01.Button;
+import java.awt.event.ActionListener;
 
 public class ButtonExample {
     public static void main(String[] args) {
+        Button btnOk = new Button();
 
-        Button button = new Button();
-
-        class OkClickListener implements Button.ClickListener {
-
+        class OkListener implements Button.ClickListener {
             @Override
             public void onClick() {
                 System.out.println("Ok 버튼을 클릭했습니다.");
             }
         }
 
+        btnOk.setClickListener(new OkListener());
 
+        btnOk.click();
     }
 }
