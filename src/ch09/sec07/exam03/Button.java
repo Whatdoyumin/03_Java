@@ -1,4 +1,4 @@
-package day0422.advanced.ch09.sec07.exam03;
+package ch09.sec07.exam03;
 
 public class Button {
     private ClickListener clickListener;
