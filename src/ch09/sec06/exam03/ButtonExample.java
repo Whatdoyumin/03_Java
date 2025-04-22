@@ -1,6 +1,6 @@
 package ch09.sec06.exam03;
 
-import day0422.basic.ch09.sec06.exam01.Button;
+import ch09.sec06.exam01.Button;
 
 public class ButtonExample {
     public static void main(String[] args) {
